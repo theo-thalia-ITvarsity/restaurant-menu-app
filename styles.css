@@ -1,0 +1,253 @@
+html{
+    height: 100%
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    height: 100%;
+}
+
+
+.body-home{
+    background-image: url('images/hero.jpeg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-meals{
+    background-image: url('images/background-4.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*========== HOME PAGE ==========*/
+
+.header{
+    background-color: #800080;
+    
+    width: 100%;
+    height: 50px;
+    top: 0;
+    
+    position: fixed;
+    overflow-block: hidden;
+    
+    text-align-last: center;
+}
+
+.header i {
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: white;
+}
+
+/*========== HOME PAGE ==========*/
+
+#home-logo-img{
+    width: 200px;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+}
+
+.header img {
+    width: 200px;
+	padding: 14px;
+	padding-right: 25px;
+}
+
+#home-logo-text{
+    width: auto;
+    display: block;
+    margin: auto;
+    padding: 25px;
+}
+
+/*===== HOME PAGE MENU =====*/
+
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid #ffffff;
+    
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+/*========== MEALS PAGE ==========*/
+
+#meals {
+    padding-top: 50px;
+}
+
+/*===== MEALS PAGE MENU =====*/
+
+.meals-list a {
+    text-decoration: none;
+}
+
+.meals-list-item {
+    border: 5px solid #ffffff;
+    margin: 10px;
+}
+
+.meals-list-item h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.meals-list-item i {
+    float: right;
+    color: #1a1a1a;
+    padding-right: 20px;
+}
+
+.meals-list-item p {
+    font-size: 15px;
+    font-style: italic;
+    color: bisque;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+/*========== RECIPE PAGE ==========*/
+
+#recipe {
+    padding-top: 50px;
+}
+
+/*========== RECIPE DETAILS ==========*/
+
+.recipe-details img {
+    width: 100%;
+}
+
+.recipe-details h1 {
+    font-size: 25px;
+    text-align-last: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+.recipe-details h2 {
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.recipe-details-info {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.recipe-details-info p {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.recipe details h3{
+    font-size: 30px;
+}
+
+
+
+
+/*========== RESPONSIVE LAYOUT ==========*/
+
+@media only screen and (min-width: 600px) {
+#meals {
+   width: 80%;
+    margin: auto;
+}
+    #recipe {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+   #meals {
+   width: 60%;
+    margin: auto;
+}
+    #recipe {
+        width: 60%;
+        margin: auto;
+    } 
+}
+
+@media only screen and (min-width: 1500px) {
+   #meals {
+   width: 40%;
+    margin: auto;
+}
+    #recipe {
+        width: 40%;
+        margin: auto;
+    } 
+}
+
+@media only screen and (min-width: 720px) {
+    .body-home {
+        background-image: url('images/hero.jpeg');
+    }
+    .body-meals {
+        background-image: url('images/background-4.jpg');
+    }
+}
+
+/*========== ADD-ONS ==========*/
+
+table{
+    background-image: url('images/download-001.jpg');
+    color: white;
+    background-size: cover;
+    padding-top: 50px;
+    padding-left: 5px;
+}
+#forms{
+    padding-left: 10px;
+}
+
+/*============ INFO BOX FULL =============*/
+
+#info-box-full{
+    background: rgba(255, 255, 255, .8);
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+    background-color: blueviolet;
+}
+
+#info-box-full img{
+    width: 100%;
+}
+
+#info-box-full h3{
+    text-align: center;
+}
+
+body{
+    background-color: palevioletred;
+    text-decoration-color: azure;
+}
